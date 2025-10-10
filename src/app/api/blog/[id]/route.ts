@@ -1,5 +1,5 @@
 import {NextResponse} from "next/server";
-import {PrismaClient} from "@/app/generated/prisma";
+import {PrismaClient} from "@prisma/client";
 
 import {main} from "../route";
 
